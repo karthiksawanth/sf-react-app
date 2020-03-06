@@ -69,7 +69,7 @@ const App = () => {
           Learn React
         </a>
       </header> */}
-      <div className="sf-page-header">Karthik Sawanth's Family</div>
+      <div className="sf-page-header">Karthik's Family</div>
       <div>
         <ReactTable
           data={data}
