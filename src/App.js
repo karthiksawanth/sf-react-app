@@ -157,7 +157,7 @@ const App = () => {
                           <b>About me:</b> Youngest child in Karthik Sawanth's family
                         </p>
                         <p className="sf-para">
-                          <b>Hobbies:</b> Playing, eating and sleeping
+                          <b>Hobbies:</b> Play, eat, sleep and repeat
                         </p>
                       </span>
                     </div>
