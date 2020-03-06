@@ -6,6 +6,7 @@ import ksImage from "./images/ksImage.jpg";
 import ssImage from "./images/ssImage.jpg";
 import pvImage from "./images/pvImage.jpg";
 import adImage from "./images/adImage.jpg";
+import gsImage from "./images/gsImage.jpg";
 import "./App.css";
 
 const App = () => {
@@ -21,9 +22,6 @@ const App = () => {
     },
     {
       name: "Gautham Sawanth"
-    },
-    {
-      name: "Sarath Sawanth"
     }
   ];
 
@@ -45,11 +43,11 @@ const App = () => {
       //width: 400
     },
     {
-      Header: () => (
+      /* Header: () => (
         <>
           <b>Family Members</b>
         </>
-      ),
+      ), */
       accessor: "name",
       //width: 800
     }
@@ -71,7 +69,7 @@ const App = () => {
           Learn React
         </a>
       </header> */}
-      <div className="sf-page-header">Sawanth Family</div>
+      <div className="sf-page-header">Karthik Sawanth's Family</div>
       <div>
         <ReactTable
           data={data}
@@ -116,15 +114,10 @@ const App = () => {
                       </span>
                       <span className="sf-aboutme sf-pt-10">
                         <p className="sf-para">
-                          <b>Career:</b> Experienced Senior Technology
-                          Consultant with a demonstrated history of working in
-                          areas; Software Development Life <br />
-                          Cycle, Requirements Analysis, Agile, Web application
-                          development, Automation and SQL with database
-                          analysis.
+                          <b>Career:</b> Home maker. Busy with our two kids.
                         </p>
                         <p className="sf-para">
-                          <b>Hobbies:</b> Playing/watching Cricket
+                          <b>Hobbies:</b> Kids
                         </p>
                       </span>
                     </div>
@@ -141,22 +134,37 @@ const App = () => {
                       </span>
                       <span className="sf-aboutme sf-pt-10">
                         <p className="sf-para">
-                          <b>Career:</b> Experienced Senior Technology
-                          Consultant with a demonstrated history of working in
-                          areas; Software Development Life <br />
-                          Cycle, Requirements Analysis, Agile, Web application
-                          development, Automation and SQL with database
-                          analysis.
+                          <b>About me:</b> Elder daughter in Karthik Sawanth's family. Studying 1st grade in Voxpop International school.
                         </p>
                         <p className="sf-para">
-                          <b>Hobbies:</b> Playing/watching Cricket
+                          <b>Hobbies:</b> Playing Cricket, Kuchipudi dance, Skating, Drawing.
                         </p>
                       </span>
                     </div>
                   </div>
                 </>
               );
-            else if (row.index === 4)
+              else if (row.index === 3)
+              return (
+                <>
+                  <div className="row">
+                    <div className="col-xs-6">
+                      <span className="sf-image sf-zoom">
+                        <img src={gsImage} alt="logo" />
+                      </span>
+                      <span className="sf-aboutme sf-pt-10">
+                        <p className="sf-para">
+                          <b>About me:</b> Youngest child in Karthik Sawanth's family
+                        </p>
+                        <p className="sf-para">
+                          <b>Hobbies:</b> Playing, eating and sleeping
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                </>
+              );
+            /* else if (row.index === 4)
               return (
                 <>
                   <div className="row">
@@ -180,7 +188,7 @@ const App = () => {
                     </div>
                   </div>
                 </>
-              );
+              ); */
           }}
         />
       </div>
