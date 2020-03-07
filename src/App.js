@@ -117,7 +117,7 @@ const App = () => {
                           <b>Career:</b> Home maker. Busy with our two kids.
                         </p>
                         <p className="sf-para">
-                          <b>Hobbies:</b> Kids
+                          <b>Hobbies:</b> Reading books
                         </p>
                       </span>
                     </div>
